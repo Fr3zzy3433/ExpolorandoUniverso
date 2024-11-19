@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Espacial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <header>
+        <h1>Explorando o Universo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="planetas.html">Planetas</a></li>
+                <li><a href="fenomenos.html">Fenômenos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Galeria Espacial</h2>
+        <div class="gallery">
+            <img src="images/estrela.jpeg" alt="Estrela" class="gallery-image">
+            <img src="images/nebulosa.jpeg" alt="Nebulosa" class="gallery-image">
+            <img src="images/cometa.png" alt="Cometa" class="gallery-image">
+        </div>
+    </main>
+    <div id="lightbox" class="lightbox">
+        <span id="close-lightbox" class="close-lightbox">&times;</span>
+        <img id="expanded-img" class="expanded-img" src="" alt="Imagem expandida">
+    </div>
+    <footer>
+        <p>&copy; 2024 - Explorando o Universo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
